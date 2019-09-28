@@ -13,6 +13,8 @@
 		580F8417233EC9D7003FF749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580F8415233EC9D7003FF749 /* Main.storyboard */; };
 		580F8419233EC9D8003FF749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580F8418233EC9D8003FF749 /* Assets.xcassets */; };
 		580F841C233EC9D8003FF749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580F841A233EC9D8003FF749 /* LaunchScreen.storyboard */; };
+		580F8424233EDE95003FF749 /* Comidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F8423233EDE95003FF749 /* Comidas.swift */; };
+		580F8426233EE58D003FF749 /* ComidasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F8425233EE58D003FF749 /* ComidasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		580F8418233EC9D8003FF749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580F841B233EC9D8003FF749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		580F841D233EC9D8003FF749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580F8423233EDE95003FF749 /* Comidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comidas.swift; sourceTree = "<group>"; };
+		580F8425233EE58D003FF749 /* ComidasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				580F840F233EC9D7003FF749 /* AppDelegate.swift */,
 				580F8411233EC9D7003FF749 /* SceneDelegate.swift */,
 				580F8413233EC9D7003FF749 /* ViewController.swift */,
+				580F8423233EDE95003FF749 /* Comidas.swift */,
 				580F8415233EC9D7003FF749 /* Main.storyboard */,
+				580F8425233EE58D003FF749 /* ComidasView.swift */,
 				580F8418233EC9D8003FF749 /* Assets.xcassets */,
 				580F841A233EC9D8003FF749 /* LaunchScreen.storyboard */,
 				580F841D233EC9D8003FF749 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580F8424233EDE95003FF749 /* Comidas.swift in Sources */,
 				580F8414233EC9D7003FF749 /* ViewController.swift in Sources */,
+				580F8426233EE58D003FF749 /* ComidasView.swift in Sources */,
 				580F8410233EC9D7003FF749 /* AppDelegate.swift in Sources */,
 				580F8412233EC9D7003FF749 /* SceneDelegate.swift in Sources */,
 			);
